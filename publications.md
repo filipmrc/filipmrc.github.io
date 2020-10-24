@@ -7,8 +7,8 @@ permalink: /publications/
 
 **Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization**
 
-<!-- <a class="tiny ui green button" href="https://arxiv.org/abs/1909.09318"><i class="file alternate outline icon"></i>arXiv</a> -->
-<!-- <a class="tiny ui black button" href="https://github.com/utiasSTARS/sos-ik"><i class="github icon"></i>Github</a> -->
+<a class="tiny ui green button" href="https://arxiv.org/abs/1909.09318"><i class="file alternate outline icon"></i>arXiv</a>
+<a class="tiny ui black button" href="https://github.com/utiasSTARS/sos-ik"><i class="github icon"></i>Github</a>
 
 <details>
 <summary>Abstract</summary>
