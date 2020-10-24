@@ -12,6 +12,9 @@ Below you can see some of my recent publications.
 
 
 ### Recent Publications
+
+---
+
 **Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization**
 
 <!-- <button class="ui button"> -->
@@ -49,7 +52,8 @@ Inverse kinematics is a fundamental challenge for articulated robots: fast and a
 
 </p>
 </details>
-<br />
+
+---
 
 **Manipulability Maximization Using Continuous-Time Gaussian Processes**
 
