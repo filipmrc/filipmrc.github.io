@@ -520,6 +520,46 @@
   text-shadow: none;
 }
 
+/* Github */
+.ui.github.button {
+  background-color: #24292e;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+  -webkit-box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+          box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.ui.github.button:hover {
+  background-color: #24292e;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.ui.github.button:active {
+  background-color: #24292e;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
+/* arXiv */
+.ui.arxiv.button {
+  background-color: #28a745;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+  -webkit-box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+          box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+.ui.arxiv.button:hover {
+  background-color: #28a745;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+.ui.arxiv.button:active {
+  background-color: #28a745;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
 /* Linked In */
 .ui.linkedin.button {
   background-color: #1F88BE;

@@ -20,3 +20,6 @@ plugins:
   - jekyll-feed
 
 markdown: CommonMarkGhPages
+
+sass:
+    style: compressed
