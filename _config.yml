@@ -4,14 +4,12 @@ title: Filip Marić
 author: >#Filip Marić
 # email: filip.maric@mail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal web page.
+#  My personal web page.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 header_pages:
-- projects.md
+#- projects.md
 - publications.md
 - posts.md
 
