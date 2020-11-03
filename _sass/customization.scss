@@ -1,5 +1,4 @@
 #content {
-
   details {
     margin-bottom: 0.1rem;
   }
@@ -16,16 +15,17 @@
     margin: 0.25em 0.25em 0em 0em;
   }
 
-  .ui.segment.raised {
+  .ui.segment{
     summary {
         font-weight:normal;
         font-size:14px;
     }
     p {
-        font-size:14px;
+        font-size:15px;
         font-weight:350;
         margin-bottom: 0.2rem;
     }
+
     h4 {
         margin-top: 0rem;
         margin-bottom: 0.2rem;
