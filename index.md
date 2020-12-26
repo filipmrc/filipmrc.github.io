@@ -12,16 +12,19 @@ layout: page
   My name is Filip Marić and I am a Ph.D. student with the [STARS](www.starslab.ca) lab at the University of Toronto, directed by Prof. [Jonathan Kelly](http://stars.utias.utoronto.ca/~jkelly/).
   I am also jointly affiliated with [LAMOR](https://lamor.fer.hr/lamor) at the University of Zagreb, directed by Prof. Ivan Petrović.
 
-  I'm exploring how methods based on computational [differential](https://en.wikipedia.org/wiki/Differential_geometry) and [algebraic](https://en.wikipedia.org/wiki/Algebraic_geometry) geometry can be used in motion planning, analysis and control for robotic manipulators.
-  If you're interested in my work, check out the [publications](/publications) page for a list of papers and related resources.
+  I'm exploring how methods based on computational [differential](https://en.wikipedia.org/wiki/Differential_geometry) and [algebraic](https://en.wikipedia.org/wiki/Algebraic_geometry) geometry can be used in inverse kinematics, motion planning and control for robotic manipulators.
+  Also, I am interested in how geometric representations can be used to provide domain-specific knowledge into learning methods for robotics.
 
+  If you're interested in my work, check out the [publications](/publications) page for a list of papers and related resources. For code samples and libraries, please visit my [github](https://github.com/filipmrc) profile.
   </div>
 </div>
 
 
+
 <h4 style="margin-bottom:1rem;"> News and Updates</h4>
 
-<div class="container" style="font-weight:350">
+<!-- <div class="container" style="font-weight:400"> -->
+<div class="container">
 
 **[October, 2020]** Our paper "Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion" won the best paper award at IROS’20 [Workshop on Bringing Geometric Methods to Robot Learning](https://sites.google.com/view/iros2020-geometric-methods/home)!
 

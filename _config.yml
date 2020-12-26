@@ -9,13 +9,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_pages:
-#- projects.md
 - publications.md
-- posts.md
+- projects.md
+- cv.md
+#- posts.md
 
 remote_theme: aterenin/minima-reboot
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 markdown: CommonMarkGhPages
 
