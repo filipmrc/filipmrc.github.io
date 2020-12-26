@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_pages:
 - publications.md
-- projects.md
+#- projects.md
 - cv.md
 #- posts.md
 

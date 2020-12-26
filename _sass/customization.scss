@@ -9,12 +9,6 @@
     padding: 0.6em 1.0em 0.6em;
   }
 
-  .ui.segment.secondary {
-    font-size:14px;
-    font-weight:350;
-    margin: 0.25em 0.25em 0em 0em;
-  }
-
   .ui.segment{
     summary {
         font-weight:normal;
@@ -39,6 +33,13 @@
         font-size:14px;
         font-weight: 350;
     }
+
+    // secondary {
+    //     font-size:14px;
+    //     font-weight:350;
+    //     margin: 0.25em 0.25em 0em 0em;
+    // }
   }
 
 }
+
