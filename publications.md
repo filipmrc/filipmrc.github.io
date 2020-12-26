@@ -3,6 +3,8 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+This list contains selected publications and various additional materials (code, media, pdfs).
+For a more detailed listing please check out my profile on [google scholar](https://scholar.google.com/citations?hl=en&user=o_cwgrkAAAAJ). 
 ### 2020
 
 <div class="ui raised segment">

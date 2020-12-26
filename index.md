@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 ---
-<div class="ui grid container">
+<div class="ui middle aligned grid container">
 <div class="two column row">
 <div class="five wide column">
-<img class="ui centered medium circular image" src="/assets/filip_275.jpg">
+<img class="ui small centered circular image" src="/assets/filip_275.jpg">
 </div>
 <div class="eleven wide column">
 <font size="+1">
@@ -29,7 +29,7 @@ layout: page
 
 <h4 style="margin-bottom:1rem;"> News and Updates</h4>
 
-<!-- <div class="container" style="font-weight:400"> -->
+***
 <div class="ui center aligned container">
 
 **[October, 2020]** Our paper "Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion" won the best paper award at IROS’20 [Workshop on Bringing Geometric Methods to Robot Learning](https://sites.google.com/view/iros2020-geometric-methods/home)!
