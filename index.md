@@ -32,6 +32,8 @@ layout: page
 ***
 <div class="ui center aligned container">
 
+**[December, 2020]** Happy to announce I'll be joining Facebook Reality Labs as a visiting researcher this summer!
+
 **[October, 2020]** Our paper "Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion" won the best paper award at IROS’20 [Workshop on Bringing Geometric Methods to Robot Learning](https://sites.google.com/view/iros2020-geometric-methods/home)!
 
 **[October, 2020]** Finally submitted our paper "Riemannian Optimization for Distance Geometric Inverse Kinematics" for publication in IEEE Transactions on Robotics. 
