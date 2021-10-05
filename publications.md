@@ -24,7 +24,7 @@ Solving the inverse kinematics problem is a fundamental challenge in motion plan
 <p>
 
 ```
-@article{2020_Marić_Riemannian,
+@article{2020_Maric_Riemannian,
   abstract = {Solving the inverse kinematics problem is a fundamental challenge in motion planning, control, and calibration for articulated robots. Kinematic models for these robots are typically param- eterized by joint angles, generating a complicated trigonometric mapping between a robot's configuration and end-effector pose. Alternatively, the kinematic model and task constraints can be represented using invariant distances between points attached to the robot. In this paper, we prove the equivalence of distance-based inverse kinematics formulations and the distance geometry problem for a large class of robots comprised of revolute joints. Unlike previous approaches, we use the connection between distance geometry and low-rank matrix completion to find inverse kinematics solutions by completing a partial Euclidean distance matrix using local optimization. Further, we parameterize the space of Euclidean distance matrices with the Riemannian manifold of fixed-rank Gram matrices, allowing us to leverage a variety of mature Riemannian optimization methods. Finally, we show that bound smoothing can be used to generate informed initializations without significant computational overhead, improving convergence. We demonstrate that our novel inverse kinematics solver achieves higher success rates compared to traditional approaches, and significantly outperforms them in many cases where multiple end-effectors are present.},
   author = {Filip Marić and Matthew Giamou and Adam Hall and Soroush Khoubyarian and Ivan Petrović and Jonathan Kelly},
   journal = {IEEE Transactions on Robotics},
@@ -61,12 +61,18 @@ common manipulability maximizing method in reaching and path following tasks opt
 <p>
 
 ```
-@article{2020_Marić_Geometry-Aware,
-  author = {Filip Marić and Luka Petrović and Marko Guberina and Jonathan Kelly and Ivan Petrović},
-  journal = {Robotics and Autonomous Systems},
-  note = {Submitted},
-  title = {Geometry-Aware Singularity Avoidance for Articulated Robots Using a Riemannian Metric},
-  year = {2020}
+@article{MARIC2021103865,
+title = {A Riemannian metric for geometry-aware singularity avoidance by articulated robots},
+journal = {Robotics and Autonomous Systems},
+volume = {145},
+pages = {103865},
+year = {2021},
+issn = {0921-8890},
+doi = {https://doi.org/10.1016/j.robot.2021.103865},
+url = {https://www.sciencedirect.com/science/article/pii/S0921889021001500},
+author = {Filip Marić and Luka Petrović and Marko Guberina and Jonathan Kelly and Ivan Petrović},
+keywords = {Manipulation, Manipulability ellipsoid, Kinematics, Differential geometry},
+abstract = {Articulated robots such as manipulators increasingly must operate in uncertain and dynamic environments where interaction (with human coworkers, for example) is necessary. In these situations, the capacity to quickly adapt to unexpected changes in operational space constraints is essential. At certain points in a manipulator’s configuration space, termed singularities, the robot loses one or more degrees of freedom (DoF) and is unable to move in specific operational space directions. The inability to move in arbitrary directions in operational space compromises adaptivity and, potentially, safety. We introduce a geometry-aware singularity index, defined using a Riemannian metric on the manifold of symmetric positive definite matrices, to provide a measure of proximity to singular configurations. We demonstrate that our index avoids some of the failure modes and difficulties inherent to other common indices. Further, we show that our index can be differentiated easily, making it compatible with local optimization approaches used for operational space control. Our experimental results establish that, for reaching and path following tasks, optimization based on our index outperforms a common manipulability maximization technique and ensures singularity-robust motions.}
 }
 ```
 
