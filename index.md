@@ -31,6 +31,7 @@ layout: page
 
 ***
 <div class="ui center aligned container">
+
 **[June, 2021]** I'm honored to have been an invited speaker at this year's Robotics: Science and Systems (RSS) conference workshop "Geometry and Topology in Robotics: Learning, Optimization, Planning, and Control". Check out the video [here](https://youtu.be/uFe2oI6d-rg)!
 
 **[December, 2020]** Happy to announce I'll be joining Facebook Reality Labs as a visiting researcher this summer!
