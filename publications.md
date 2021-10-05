@@ -42,7 +42,7 @@ Solving the inverse kinematics problem is a fundamental challenge in motion plan
 
 #### Geometry-Aware Singularity Avoidance for Articulated Robots Using a Riemannian Metric 
 F. Marić, L. Petrović, M. Guberina, J. Kelly, and I. Petrović\
-**[ submitted ]** Robotics and Autonomous Systems 
+Robotics and Autonomous Systems 
 <details>
 <summary>Abstract</summary>
 <div class="ui secondary segment">
