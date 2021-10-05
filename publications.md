@@ -46,6 +46,9 @@ abstract = {Articulated robots such as manipulators increasingly must operate in
 
 </p>
 </details>
+
+[<span style="color:green">**[ preprint ]**</span>](https://arxiv.org/abs/2103.05362) 
+
 </div>
 
 ### 2020
@@ -79,6 +82,9 @@ Solving the inverse kinematics problem is a fundamental challenge in motion plan
 
 </p>
 </details>
+
+[<span style="color:green">**[ preprint ]**</span>](https://arxiv.org/abs/2108.13720) 
+
 </div>
 
 
@@ -166,7 +172,7 @@ Inverse kinematics is a fundamental challenge for articulated robots: fast and a
 <div class="ui raised segment">
 
 #### Manipulability Maximization Using Continuous-Time Gaussian Processes
-F. Marić and O. Limoyo and L. Petrović and I. Petrović and J. Kelly\
+F. Marić, O. Limoyo, L. Petrović, I. Petrović, and J. Kelly\
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’19), Macau, China
 <details>
 <summary>Abstract</summary>
