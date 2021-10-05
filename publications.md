@@ -5,39 +5,7 @@ permalink: /publications/
 ---
 This list contains selected publications and various additional materials (code, media, pdfs).
 For a more detailed listing please check out my profile on [google scholar](https://scholar.google.com/citations?hl=en&user=o_cwgrkAAAAJ). 
-### 2020
-
-<div class="ui raised segment">
-
-#### Riemannian Optimization for Distance Geometric Inverse Kinematics  
-F. Marić, M. Giamou, A. Hall, S. Khoubyarian, I. Petrović, and J. Kelly\
-**[ submitted ]** IEEE Transactions on Robotics 
-<details>
-<summary>Abstract</summary>
-<div class="ui secondary segment">
-Solving the inverse kinematics problem is a fundamental challenge in motion planning, control, and calibration for articulated robots. Kinematic models for these robots are typically param- eterized by joint angles, generating a complicated trigonometric mapping between a robot's configuration and end-effector pose. Alternatively, the kinematic model and task constraints can be represented using invariant distances between points attached to the robot. In this paper, we prove the equivalence of distance-based inverse kinematics formulations and the distance geometry problem for a large class of robots comprised of revolute joints. Unlike previous approaches, we use the connection between distance geometry and low-rank matrix completion to find inverse kinematics solutions by completing a partial Euclidean distance matrix using local optimization. Further, we parameterize the space of Euclidean distance matrices with the Riemannian manifold of fixed-rank Gram matrices, allowing us to leverage a variety of mature Riemannian optimization methods. Finally, we show that bound smoothing can be used to generate informed initializations without significant computational overhead, improving convergence. We demonstrate that our novel inverse kinematics solver achieves higher success rates compared to traditional approaches, and significantly outperforms them in many cases where multiple end-effectors are present.
-</div>
-</details>
-
-<details>
-<summary>Citation (BibTeX)</summary>
-<p>
-
-```
-@article{2020_Maric_Riemannian,
-  abstract = {Solving the inverse kinematics problem is a fundamental challenge in motion planning, control, and calibration for articulated robots. Kinematic models for these robots are typically param- eterized by joint angles, generating a complicated trigonometric mapping between a robot's configuration and end-effector pose. Alternatively, the kinematic model and task constraints can be represented using invariant distances between points attached to the robot. In this paper, we prove the equivalence of distance-based inverse kinematics formulations and the distance geometry problem for a large class of robots comprised of revolute joints. Unlike previous approaches, we use the connection between distance geometry and low-rank matrix completion to find inverse kinematics solutions by completing a partial Euclidean distance matrix using local optimization. Further, we parameterize the space of Euclidean distance matrices with the Riemannian manifold of fixed-rank Gram matrices, allowing us to leverage a variety of mature Riemannian optimization methods. Finally, we show that bound smoothing can be used to generate informed initializations without significant computational overhead, improving convergence. We demonstrate that our novel inverse kinematics solver achieves higher success rates compared to traditional approaches, and significantly outperforms them in many cases where multiple end-effectors are present.},
-  author = {Filip Marić and Matthew Giamou and Adam Hall and Soroush Khoubyarian and Ivan Petrović and Jonathan Kelly},
-  journal = {IEEE Transactions on Robotics},
-  note = {Submitted},
-  title = {Riemannian Optimization for Distance Geometric Inverse Kinematics},
-  year = {2020}
-}
-```
-
-</p>
-</details>
-</div>
-
+### 2021
 <div class="ui raised segment">
 
 #### Geometry-Aware Singularity Avoidance for Articulated Robots Using a Riemannian Metric 
@@ -79,6 +47,40 @@ abstract = {Articulated robots such as manipulators increasingly must operate in
 </p>
 </details>
 </div>
+
+### 2020
+
+<div class="ui raised segment">
+
+#### Riemannian Optimization for Distance Geometric Inverse Kinematics  
+F. Marić, M. Giamou, A. Hall, S. Khoubyarian, I. Petrović, and J. Kelly\
+**[ submitted ]** IEEE Transactions on Robotics 
+<details>
+<summary>Abstract</summary>
+<div class="ui secondary segment">
+Solving the inverse kinematics problem is a fundamental challenge in motion planning, control, and calibration for articulated robots. Kinematic models for these robots are typically param- eterized by joint angles, generating a complicated trigonometric mapping between a robot's configuration and end-effector pose. Alternatively, the kinematic model and task constraints can be represented using invariant distances between points attached to the robot. In this paper, we prove the equivalence of distance-based inverse kinematics formulations and the distance geometry problem for a large class of robots comprised of revolute joints. Unlike previous approaches, we use the connection between distance geometry and low-rank matrix completion to find inverse kinematics solutions by completing a partial Euclidean distance matrix using local optimization. Further, we parameterize the space of Euclidean distance matrices with the Riemannian manifold of fixed-rank Gram matrices, allowing us to leverage a variety of mature Riemannian optimization methods. Finally, we show that bound smoothing can be used to generate informed initializations without significant computational overhead, improving convergence. We demonstrate that our novel inverse kinematics solver achieves higher success rates compared to traditional approaches, and significantly outperforms them in many cases where multiple end-effectors are present.
+</div>
+</details>
+
+<details>
+<summary>Citation (BibTeX)</summary>
+<p>
+
+```
+@article{2020_Maric_Riemannian,
+  abstract = {Solving the inverse kinematics problem is a fundamental challenge in motion planning, control, and calibration for articulated robots. Kinematic models for these robots are typically param- eterized by joint angles, generating a complicated trigonometric mapping between a robot's configuration and end-effector pose. Alternatively, the kinematic model and task constraints can be represented using invariant distances between points attached to the robot. In this paper, we prove the equivalence of distance-based inverse kinematics formulations and the distance geometry problem for a large class of robots comprised of revolute joints. Unlike previous approaches, we use the connection between distance geometry and low-rank matrix completion to find inverse kinematics solutions by completing a partial Euclidean distance matrix using local optimization. Further, we parameterize the space of Euclidean distance matrices with the Riemannian manifold of fixed-rank Gram matrices, allowing us to leverage a variety of mature Riemannian optimization methods. Finally, we show that bound smoothing can be used to generate informed initializations without significant computational overhead, improving convergence. We demonstrate that our novel inverse kinematics solver achieves higher success rates compared to traditional approaches, and significantly outperforms them in many cases where multiple end-effectors are present.},
+  author = {Filip Marić and Matthew Giamou and Adam Hall and Soroush Khoubyarian and Ivan Petrović and Jonathan Kelly},
+  journal = {IEEE Transactions on Robotics},
+  note = {Submitted},
+  title = {Riemannian Optimization for Distance Geometric Inverse Kinematics},
+  year = {2020}
+}
+```
+
+</p>
+</details>
+</div>
+
 
 
 <div class="ui raised segment">
