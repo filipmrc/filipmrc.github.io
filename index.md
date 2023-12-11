@@ -6,14 +6,13 @@ layout: page
 <div class="ui middle aligned grid container">
 <div class="two column row">
 <div class="five wide column">
-<img class="ui small centered circular image" src="/assets/filip_275.jpg">
+<img class="ui small centered circular image" src="./assets/filip_275.jpg">
 </div>
 <div class="eleven wide column">
 <font size="+1">
 
   My name is Filip Marić and I am an AI researcher at Samsung Research. I have completed my Ph.D. with the <a href="www.starslab.ca">STARS</a> lab at the University of Toronto, directed by Prof. <a href="http://stars.utias.utoronto.ca/~jkelly/">Jonathan Kelly</a>.
   I am also jointly affiliated with <a href="https://lamor.fer.hr/lamor">LAMOR</a> at the University of Zagreb, directed by Prof. Ivan Petrović.
-  <!-- My name is Filip Marić and I am a Ph.D. student with the <a href="www.starslab.ca">STARS</a> lab at the University of Toronto, directed by Prof. <a href="http://stars.utias.utoronto.ca/~jkelly/">Jonathan Kelly</a>. -->
   I'm exploring how methods based on computational [differential](https://en.wikipedia.org/wiki/Differential_geometry) and [algebraic](https://en.wikipedia.org/wiki/Algebraic_geometry) geometry can be used in inverse kinematics, motion planning and control for robotic manipulators.
   Also, I am interested in how geometric representations can be used to provide domain-specific knowledge into learning methods for robotics.
 
