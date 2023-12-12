@@ -91,7 +91,8 @@ abstract = {Articulated robots such as manipulators increasingly must operate in
 <div class="ui raised segment" markdown="1">
 
 #### Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion
-F. Marić, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly\
+F. Marić, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly
+
 <a class="ui red left horizontal label">Best Paper</a>
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’20) Workshop on Bringing Geometric Methods to Robot Learning, Optimization and Control, Las Vegas, Nevada, USA 
 <details>
