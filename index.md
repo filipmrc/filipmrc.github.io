@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 ---
-<div class="ui middle aligned grid container">
+<div class="ui middle aligned grid container" markdown="1">
 <div class="two column row">
 <div class="five wide column">
 <img class="ui small centered circular image" src="./assets/filip_275.jpg">
@@ -29,7 +29,7 @@ layout: page
 <h4 style="margin-bottom:1rem;"> News and Updates</h4>
 
 ***
-<div class="ui center aligned container">
+<div class="ui center aligned container" markdown="1">
 
 **[September, 2022]** Finished a 4 month long research scientist internship at Meta Reality Labs, San Francisco. My research involved learning kinematics for body tracking in VR.
 

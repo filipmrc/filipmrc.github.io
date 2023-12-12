@@ -19,7 +19,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-markdown: CommonMarkGhPages
+markdown: kramdown
 
 sass:
     style: compressed

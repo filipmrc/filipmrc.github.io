@@ -7,7 +7,7 @@ This list contains selected publications and various additional materials (code,
 For a more detailed listing please check out my profile on [google scholar](https://scholar.google.com/citations?hl=en&user=o_cwgrkAAAAJ). 
 ### 2021
 
-<div class="ui raised segment">
+<div class="ui raised segment" markdown="1">
 
 #### Riemannian Optimization for Distance Geometric Inverse Kinematics  
 F. Marić, M. Giamou, A. Hall, S. Khoubyarian, I. Petrović, and J. Kelly\
@@ -41,7 +41,7 @@ Solving the inverse kinematics problem is a fundamental challenge in motion plan
 
 </div>
 
-<div class="ui raised segment">
+<div class="ui raised segment" markdown="1">
 
 #### Geometry-Aware Singularity Avoidance for Articulated Robots Using a Riemannian Metric 
 F. Marić, L. Petrović, M. Guberina, J. Kelly, and I. Petrović\
@@ -88,7 +88,7 @@ abstract = {Articulated robots such as manipulators increasingly must operate in
 
 ### 2020
 
-<div class="ui raised segment">
+<div class="ui raised segment" markdown="1">
 
 #### Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion
 F. Marić, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly\
@@ -126,7 +126,7 @@ The majority of inverse kinematics (IK) algorithms search for solutions in a con
 <!-- <a class="tiny ui red button" href="https://youtu.be/wO0_w2Gw5jk"><i class="youtube icon"></i>Video</a> -->
 </div>
 
-<div class="ui raised segment">
+<div class="ui raised segment" markdown="1">
 
 #### Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization
 F. Marić, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly\
@@ -168,7 +168,7 @@ Inverse kinematics is a fundamental challenge for articulated robots: fast and a
 </div>
 
 ### 2019
-<div class="ui raised segment">
+<div class="ui raised segment" markdown="1">
 
 #### Manipulability Maximization Using Continuous-Time Gaussian Processes
 F. Marić, O. Limoyo, L. Petrović, I. Petrović, and J. Kelly\
@@ -204,4 +204,5 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’19),
 <!-- <a class="tiny ui green button" href="https://arxiv.org/abs/1908.02963"><i class="file alternate outline icon"></i>Preprint</a> -->
 <!-- <a class="tiny ui red button" href="https://youtu.be/tB34VfDrF84"><i class="youtube icon"></i>Video</a> -->
 </div>
-</br>
+
+
