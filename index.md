@@ -10,6 +10,7 @@ layout: page
 </div>
 <div class="eleven wide column">
 <font size="+1">
+
 I am currently an AI researcher at Samsung Research, working on multimodal retrival and composed image search. 
 I have completed my Ph.D. with the <a href="www.starslab.ca">STARS</a> lab at the University of Toronto, directed by Prof. <a href="http://stars.utias.utoronto.ca/~jkelly/">Jonathan Kelly</a>. During this time I was jointly affiliated with <a href="https://lamor.fer.hr/lamor">LAMOR</a> at the University of Zagreb, directed by Prof. Ivan Petrović.
 
@@ -29,6 +30,8 @@ If you're interested in my work, check out the <a href="/publications">publicati
 
 ***
 <div class="ui center aligned container" markdown="1">
+
+**[February, 2023]** Started position as AI research scientist at Samsung AI Montreal.
 
 **[September, 2022]** Finished a 4 month long research scientist internship at Meta Reality Labs, San Francisco. My research involved learning kinematics for body tracking in VR.
 
