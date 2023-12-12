@@ -5,12 +5,94 @@ permalink: /publications/
 ---
 This list contains selected publications and various additional materials (code, media, pdfs).
 For a more detailed listing please check out my profile on [google scholar](https://scholar.google.com/citations?hl=en&user=o_cwgrkAAAAJ). 
+
+### 2023
+
+<div class="ui raised segment" markdown="1">
+
+#### Generative Graphical Inverse Kinematics 
+Oliver Limoyo\*, Filip Marić\*, Matthew Giamou, Petra Alexson, Ivan Petrović, Jonathan Kelly
+
+<a class="ui orange left horizontal label">In Review</a> IEEE Transactions on Robotics
+<details>
+<summary>Abstract</summary>
+<div class="ui secondary segment">
+Quickly and reliably finding accurate inverse kinematics (IK) solutions remains a challenging problem for robotic manipulation. Existing numerical solvers are broadly applicable, but typically only produce a single solution and rely on local search techniques to minimize highly nonconvex objective functions. More recent learning-based approaches that approximate the entire feasible set of solutions have shown promise as a means to generate multiple fast and accurate IK results in parallel. However, existing learning-based techniques have a significant drawback: each robot of interest requires a specialized model that must be trained from scratch. To address this key shortcoming, we investigate a novel distance-geometric robot representation coupled with a graph structure that allows us to leverage the flexibility of graph neural networks (GNNs). We use this approach to train the first learned generative graphical inverse kinematics (GGIK) solver that is able to produce a large number of diverse solutions in parallel and to also generalize: a single learned model can be used to produce IK solutions for a variety of different robots. When compared to several other learned IK methods, GGIK provides more accurate solutions. GGIK is also able to generalize reasonably well to robot manipulators unseen during training. Finally, we show that GGIK can be used to complement local IK solvers by providing reliable initializations to seed the local optimization process. 
+</div>
+</details>
+
+<details>
+<summary>Citation (BibTeX)</summary>
+<p>
+```
+@article{2023_Limoyo_Generative,
+abstract = {Quickly and reliably finding accurate inverse kinematics (IK) solutions remains a challenging problem for robotic manipulation. Existing numerical solvers are broadly applicable, but typically only produce a single solution and rely on local search techniques to minimize highly nonconvex objective functions. More recent learning-based approaches that approximate the entire feasible set of solutions have shown promise as a means to generate multiple fast and accurate IK results in parallel. However, existing learning-based techniques have a significant drawback: each robot of interest requires a specialized model that must be trained from scratch. To address this key shortcoming, we investigate a novel distance-geometric robot representation coupled with a graph structure that allows us to leverage the flexibility of graph neural networks (GNNs). We use this approach to train the first learned generative graphical inverse kinematics (GGIK) solver that is able to produce a large number of diverse solutions in parallel and to also generalize: a single learned model can be used to produce IK solutions for a variety of different robots. When compared to several other learned IK methods, GGIK provides more accurate solutions. GGIK is also able to generalize reasonably well to robot manipulators unseen during training. Finally, we show that GGIK can be used to complement local IK solvers by providing reliable initializations to seed the local optimization process.},
+author = {Oliver Limoyo and Filip Maric and Matthew Giamou and Petra Alexson and Ivan Petrovic and Jonathan Kelly},
+journal = {IEEE Transactions on Robotics},
+note = {Submitted},
+title = {Generative Graphical Inverse Kinematics},
+url = {http://arxiv.org/abs/2209.08812},
+year = {2023}
+}
+```
+</p>
+</details>
+
+[<span style="color:green">**[ preprint ]**</span>](https://arxiv.org/abs/2209.08812)
+
+</div>
+
+### 2022
+
+<div class="ui raised segment" markdown="1">
+
+#### Convex Iteration for Distance Geometric Inverse Kinematics 
+Matthew Giamou\*, Filip Marić\*, David M Rosen, Valentin Peretroukhin, Nicholas Roy, Ivan Petrović, Jonathan Kelly
+
+IEEE Robotics and Automation Letters 
+<details>
+<summary>Abstract</summary>
+<div class="ui secondary segment">
+Inverse kinematics (IK) is the problem of finding robot joint configurations that satisfy constraints on the position or pose of one or more end-effectors. For robots with redundant degrees of freedom, there is often an infinite, nonconvex set of solutions. The IK problem is further complicated when collision avoidance constraints are imposed by obstacles in the workspace. In general, closed-form expressions yielding feasible configurations do not exist, motivating the use of numerical solution methods. However, these approaches rely on local optimization of nonconvex problems, often requiring an accurate initialization or numerous re-initializations to converge to a valid solution. In this work, we first formulate inverse kinematics with complex workspace constraints as a convex feasibility problem whose low-rank feasible points provide exact IK solutions. We then present CIDGIK (Convex Iteration for Distance-Geometric Inverse Kinematics), an algorithm that solves this feasibility problem with a sequence of semidefinite programs whose objectives are designed to encourage low-rank minimizers. Our problem formulation elegantly unifies the configuration space and workspace constraints of a robot: intrinsic robot geometry and obstacle avoidance are both expressed as simple linear matrix equations and inequalities. Our experimental results for a variety of popular manipulator models demonstrate faster and more accurate convergence than a conventional nonlinear optimization-based approach, especially in environments with many obstacles.
+</div>
+</details>
+
+<details>
+<summary>Citation (BibTeX)</summary>
+<p>
+
+```
+@article{2022_Giamou_Convex,
+  abstract = {Inverse kinematics (IK) is the problem of finding robot joint configurations that satisfy constraints on the position or pose of one or more end-effectors. For robots with redundant degrees of freedom, there is often an infinite, nonconvex set of solutions. The IK problem is further complicated when collision avoidance constraints are imposed by obstacles in the workspace. In general, closed-form expressions yielding feasible configurations do not exist, motivating the use of numerical solution methods. However, these approaches rely on local optimization of nonconvex problems, often requiring an accurate initialization or numerous re-initializations to converge to a valid solution. In this work, we first formulate inverse kinematics with complex workspace constraints as a convex feasibility problem whose low-rank feasible points provide exact IK solutions. We then present CIDGIK (Convex Iteration for Distance-Geometric Inverse Kinematics), an algorithm that solves this feasibility problem with a sequence of semidefinite programs whose objectives are designed to encourage low-rank minimizers. Our problem formulation elegantly unifies the configuration space and workspace constraints of a robot: intrinsic robot geometry and obstacle avoidance are both expressed as simple linear matrix equations and inequalities. Our experimental results for a variety of popular manipulator models demonstrate faster and more accurate convergence than a conventional nonlinear optimization-based approach, especially in environments with many obstacles.},
+  author = {Matthew Giamou and Filip Maric and David M. Rosen and Valentin Peretroukhin and Nicholas Roy and Ivan Petrovic and Jonathan Kelly},
+  code = {https://github.com/utiasSTARS/graphIK},
+  doi = {10.1109/LRA.2022.3141763},
+  journal = {IEEE Robotics and Automation Letters},
+  month = {April},
+  number = {2},
+  pages = {1952--1959},
+  title = {Convex Iteration for Distance-Geometric Inverse Kinematics},
+  url = {https://arxiv.org/abs/2109.03374},
+  video1 = {https://www.youtube.com/watch?v=kja7H8zQ0H8},
+  volume = {7},
+  year = {2022}
+}
+```
+</p>
+</details>
+
+[<span style="color:green">**[ preprint ]**</span>](https://arxiv.org/abs/2109.03374) 
+[<span style="color:red">**[ video ]**</span>](https://www.youtube.com/watch?v=kja7H8zQ0H8)
+
+</div>
+
 ### 2021
 
 <div class="ui raised segment" markdown="1">
 
-#### Riemannian Optimization for Distance Geometric Inverse Kinematics  
-F. Marić, M. Giamou, A. Hall, S. Khoubyarian, I. Petrović, and J. Kelly\
+#### Riemannian Optimization for Distance Geometric Inverse Kinematics
+F. Marić\*, M. Giamou\*, A. Hall, S. Khoubyarian, I. Petrović, and J. Kelly
+
 IEEE Transactions on Robotics 
 <details>
 <summary>Abstract</summary>
@@ -44,7 +126,8 @@ Solving the inverse kinematics problem is a fundamental challenge in motion plan
 <div class="ui raised segment" markdown="1">
 
 #### Geometry-Aware Singularity Avoidance for Articulated Robots Using a Riemannian Metric 
-F. Marić, L. Petrović, M. Guberina, J. Kelly, and I. Petrović\
+F. Marić, L. Petrović, M. Guberina, J. Kelly, and I. Petrović
+
 Robotics and Autonomous Systems 
 <details>
 <summary>Abstract</summary>
@@ -130,7 +213,8 @@ The majority of inverse kinematics (IK) algorithms search for solutions in a con
 <div class="ui raised segment" markdown="1">
 
 #### Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization
-F. Marić, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly\
+F. Marić, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly
+
 IEEE International Conference on Robotics and Automation (ICRA’20), Paris, France
 <details>
 <summary>Abstract</summary>
@@ -172,7 +256,8 @@ Inverse kinematics is a fundamental challenge for articulated robots: fast and a
 <div class="ui raised segment" markdown="1">
 
 #### Manipulability Maximization Using Continuous-Time Gaussian Processes
-F. Marić, O. Limoyo, L. Petrović, I. Petrović, and J. Kelly\
+F. Marić, O. Limoyo, L. Petrović, I. Petrović, and J. Kelly
+
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’19), Macau, China
 <details>
 <summary>Abstract</summary>
