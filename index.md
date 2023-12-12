@@ -10,13 +10,11 @@ layout: page
 </div>
 <div class="eleven wide column">
 <font size="+1">
-
-  My name is Filip Marić and I am an AI researcher at Samsung Research. I have completed my Ph.D. with the <a href="www.starslab.ca">STARS</a> lab at the University of Toronto, directed by Prof. <a href="http://stars.utias.utoronto.ca/~jkelly/">Jonathan Kelly</a>.
-  I am also jointly affiliated with <a href="https://lamor.fer.hr/lamor">LAMOR</a> at the University of Zagreb, directed by Prof. Ivan Petrović.
-  I'm exploring how methods based on computational [differential](https://en.wikipedia.org/wiki/Differential_geometry) and [algebraic](https://en.wikipedia.org/wiki/Algebraic_geometry) geometry can be used in inverse kinematics, motion planning and control for robotic manipulators.
-  Also, I am interested in how geometric representations can be used to provide domain-specific knowledge into learning methods for robotics.
-
-  If you're interested in my work, check out the [publications](/publications) page for a list of papers and related resources. For code samples and libraries, please visit my [github](https://github.com/filipmrc) profile.
+My name is Filip Marić and I am an AI researcher at Samsung Research. I have completed my Ph.D. with the <a href="www.starslab.ca">STARS</a> lab at the University of Toronto, directed by Prof. <a href="http://stars.utias.utoronto.ca/~jkelly/">Jonathan Kelly</a>.
+I am also jointly affiliated with <a href="https://lamor.fer.hr/lamor">LAMOR</a> at the University of Zagreb, directed by Prof. Ivan Petrović.
+I'm exploring how methods based on computational <a href="https://en.wikipedia.org/wiki/Differential_geometry">differential</a> and <a href="https://en.wikipedia.org/wiki/Algebraic_geometry">algebraic</a> geometry can be used in inverse kinematics, motion planning and control for robotic manipulators.
+Also, I am interested in how geometric representations can be used to provide domain-specific knowledge into learning methods for robotics.
+If you're interested in my work, check out the <a href="/publications">publications</a> page for a list of papers and related resources. For code samples and libraries, please visit my <a href="https://github.com/filipmrc">github</a> profile.
 
 </font>
 </div>
