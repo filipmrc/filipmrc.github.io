@@ -22,5 +22,4 @@ plugins:
 markdown: CommonMarkGhPages
 
 sass:
-    sass_dir: _sass
     style: compressed
