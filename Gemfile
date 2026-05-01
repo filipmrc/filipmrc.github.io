@@ -19,6 +19,9 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
+# webrick is no longer bundled with Ruby >= 3.0; needed for `jekyll serve`
+gem "webrick", "~> 1.8"
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do

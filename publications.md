@@ -6,14 +6,27 @@ permalink: /publications/
 This list contains selected publications and various additional materials (code, media, pdfs).
 For a more detailed listing please check out my profile on [google scholar](https://scholar.google.com/citations?hl=en&user=o_cwgrkAAAAJ). 
 
-### 2023
+### 2026
+
+<div class="ui raised segment" markdown="1">
+
+#### XR-Poser: Accurate Egocentric Human Motion Estimation for AR/VR
+Z. Li, S. K. Dwivedi, Filip Marić, C. Chacón, N. Bertsch, F. Arcadu, T. Hodan, M. Ramamonjisoa, P. Wonka, A. Zhao, R. Kips, C. Keskin, A. Tkach, C. Yang
+
+Conference on Computer Vision and Pattern Recognition (CVPR'26)
+
+[<span style="color:green">**[ preprint ]**</span>](https://openreview.net/pdf?id=HnN7kApN2I)
+
+</div>
+
+### 2024
 
 <div class="ui raised segment" markdown="1">
 
 #### Generative Graphical Inverse Kinematics 
 Oliver Limoyo\*, Filip Marić\*, Matthew Giamou, Petra Alexson, Ivan Petrović, Jonathan Kelly
 
-<a class="ui orange left horizontal label">In Review</a> IEEE Transactions on Robotics
+IEEE Transactions on Robotics
 <details>
 <summary>Abstract</summary>
 <div class="ui secondary segment">
@@ -25,14 +38,13 @@ Quickly and reliably finding accurate inverse kinematics (IK) solutions remains 
 <summary>Citation (BibTeX)</summary>
 <p>
 ```
-@article{2023_Limoyo_Generative,
+@article{2024_Limoyo_Generative,
 abstract = {Quickly and reliably finding accurate inverse kinematics (IK) solutions remains a challenging problem for robotic manipulation. Existing numerical solvers are broadly applicable, but typically only produce a single solution and rely on local search techniques to minimize highly nonconvex objective functions. More recent learning-based approaches that approximate the entire feasible set of solutions have shown promise as a means to generate multiple fast and accurate IK results in parallel. However, existing learning-based techniques have a significant drawback: each robot of interest requires a specialized model that must be trained from scratch. To address this key shortcoming, we investigate a novel distance-geometric robot representation coupled with a graph structure that allows us to leverage the flexibility of graph neural networks (GNNs). We use this approach to train the first learned generative graphical inverse kinematics (GGIK) solver that is able to produce a large number of diverse solutions in parallel and to also generalize: a single learned model can be used to produce IK solutions for a variety of different robots. When compared to several other learned IK methods, GGIK provides more accurate solutions. GGIK is also able to generalize reasonably well to robot manipulators unseen during training. Finally, we show that GGIK can be used to complement local IK solvers by providing reliable initializations to seed the local optimization process.},
 author = {Oliver Limoyo and Filip Maric and Matthew Giamou and Petra Alexson and Ivan Petrovic and Jonathan Kelly},
 journal = {IEEE Transactions on Robotics},
-note = {Submitted},
 title = {Generative Graphical Inverse Kinematics},
 url = {http://arxiv.org/abs/2209.08812},
-year = {2023}
+year = {2024}
 }
 ```
 </p>
@@ -173,6 +185,37 @@ abstract = {Articulated robots such as manipulators increasingly must operate in
 
 <div class="ui raised segment" markdown="1">
 
+#### Heteroscedastic Uncertainty for Robust Generative Latent Dynamics
+Oliver Limoyo, Bryan Chan, Filip Marić, Brandon Wagstaff, A. Rupam Mahmood, Jonathan Kelly
+
+IEEE Robotics and Automation Letters, vol. 5, no. 4, pp. 6654–6661
+
+<details>
+<summary>Citation (BibTeX)</summary>
+<p>
+
+```
+@article{2020_Limoyo_Heteroscedastic,
+  author = {Oliver Limoyo and Bryan Chan and Filip Marić and Brandon Wagstaff and A. Rupam Mahmood and Jonathan Kelly},
+  journal = {IEEE Robotics and Automation Letters},
+  number = {4},
+  pages = {6654--6661},
+  title = {Heteroscedastic Uncertainty for Robust Generative Latent Dynamics},
+  url = {https://arxiv.org/abs/2008.08157},
+  volume = {5},
+  year = {2020}
+}
+```
+
+</p>
+</details>
+
+[<span style="color:green">**[ preprint ]**</span>](https://arxiv.org/abs/2008.08157)
+
+</div>
+
+<div class="ui raised segment" markdown="1">
+
 #### Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion
 F. Marić, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly
 
@@ -255,8 +298,8 @@ Inverse kinematics is a fundamental challenge for articulated robots: fast and a
 ### 2019
 <div class="ui raised segment" markdown="1">
 
-#### Manipulability Maximization Using Continuous-Time Gaussian Processes
-F. Marić, O. Limoyo, L. Petrović, I. Petrović, and J. Kelly
+#### Fast Manipulability Maximization Using Continuous-Time Trajectory Optimization
+F. Marić, O. Limoyo, L. Petrović, T. Ablett, I. Petrović, and J. Kelly
 
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’19), Macau, China
 <details>
@@ -270,16 +313,15 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’19),
 <p>
 
 ```
-@inproceedings{2018_Marić_Manipulabiility,
-  abstract = {A significant challenge in motion planning is to avoid being in or near singular configurations (singularities), that is, joint configurations that result in the loss of the ability to move in certain directions in task space. A robotic system's capacity for motion is reduced even in regions that are in close proximity to (i.e., neighbouring) a singularity. In this work we examine singularity avoidance in a motion planning context, finding trajectories which minimize proximity to singular regions, subject to constraints. We define a manipulability-based likelihood associated with singularity avoidance over a continuous trajectory representation, which we then maximize using a maximum a posteriori (MAP) estimator. Viewing the MAP problem as inference on a factor graph, we use gradient information from interpolated states to maximize the trajectory's overall manipulability. Both qualitative and quantitative analyses of experimental data show increases in manipulability that result in smooth trajectories with visibly more dexterous arm configurations.},
-  address = {Madrid, Spain},
-  author = {Filip Marić and Oliver Limoyo and Luka Petrović and Ivan Petrović and Jonathan Kelly},
-  booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'18) Workshop Towards Robots that Exhibit Manipulation Intelligence},
-  date = {2018-10-01},
-  month = {Oct. 1},
-  title = {Manipulability Maximization Using Continuous-Time Gaussian Processes},
-  url = {https://arxiv.org/abs/1803.09493},
-  year = {2018}
+@inproceedings{2019_Marić_Fast,
+  address = {Macau, China},
+  author = {Filip Marić and Oliver Limoyo and Luka Petrović and Trevor Ablett and Ivan Petrović and Jonathan Kelly},
+  booktitle = {Proceedings of the {IEEE/RSJ} International Conference on Intelligent Robots and Systems {(IROS'19)}},
+  pages = {8258--8264},
+  title = {Fast Manipulability Maximization Using Continuous-Time Trajectory Optimization},
+  url = {https://arxiv.org/abs/1908.02963},
+  year = {2019}
+}
 ```
 
 </p>
@@ -291,4 +333,17 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’19),
 <!-- <a class="tiny ui red button" href="https://youtu.be/tB34VfDrF84"><i class="youtube icon"></i>Video</a> -->
 </div>
 
+### Other Publications
+
+<div class="ui raised segment" markdown="1">
+
+- H. J. Zhang, M. Giamou, F. Marić, J. Kelly, and J. Burgner-Kahrs, "CIDGIKc: Distance-Geometric Inverse Kinematics for Continuum Robots," *IEEE Robotics and Automation Letters*, 2023. [[preprint]](https://arxiv.org/abs/2306.13617)
+
+- I. Bilić, F. Marić, I. Marković, and I. Petrović, "A Distance-Geometric Method for Recovering Robot Joint Angles From an RGB Image," *arXiv preprint arXiv:2301.02051*, 2023. [[preprint]](https://arxiv.org/abs/2301.02051)
+
+- O. Lamarre, O. Limoyo, F. Marić, and J. Kelly, "The Canadian Planetary Emulation Terrain Energy-Aware Rover Navigation Dataset," *The International Journal of Robotics Research*, vol. 39, no. 6, pp. 641–650, 2020.
+
+- L. Petrović, F. Marić, I. Marković, and I. Petrović, "Gaussian Processes Incremental Inference for Mobile Robots Dynamic Planning," *IFAC World Congress*, vol. 53, no. 2, pp. 9584–9589, 2020.
+
+</div>
 
