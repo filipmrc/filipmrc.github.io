@@ -1,0 +1,217 @@
+---
+layout: landing
+title: Filip Marić
+description: AI Research Scientist at Meta. Geometric methods, generative motion models, embodied AI.
+---
+<section class="bio">
+  <p>
+    I am an AI Research Scientist at <a href="https://www.meta.com/">Meta</a> in the San Francisco Bay Area, where I work on body tracking and generative motion models for AR/VR. My research sits at the intersection of geometric methods and generative deep learning &mdash; specifically, how to produce structured, physically-valid motion for articulated bodies. I&rsquo;m increasingly interested in extending this work toward humanoid robots and embodied AI.
+  </p>
+  <p>
+    I defended my thesis at the University of Toronto in January 2023, jointly affiliated with the <a href="http://starslab.ca/">STARS Lab</a> (<a href="https://starslab.ca/jonathan-kelly/">Jonathan Kelly</a>) and <a href="https://lamor.fer.hr/">LAMOR</a> at the University of Zagreb (Ivan Petrović). My thesis developed geometric approaches to inverse kinematics and motion planning, drawing on differential geometry and generative models. Before Meta, I spent a year at Samsung Research America in Montreal working on visual-language models for composed image search. I&rsquo;m happy to hear from people working on related problems.
+  </p>
+</section>
+
+<section class="projects">
+  <h2 class="section-title">Selected Projects</h2>
+
+  <div class="project">
+    <div class="project-thumb">
+      <svg viewBox="0 0 160 110" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="80" cy="22" r="9" class="stroke"/>
+        <path d="M 71 28 L 50 90 M 89 28 L 110 90 M 50 90 Q 80 100 110 90" class="stroke-thin" stroke-dasharray="2,2"/>
+        <line x1="80" y1="32" x2="80" y2="62" class="stroke"/>
+        <line x1="68" y1="42" x2="92" y2="42" class="stroke"/>
+        <line x1="68" y1="42" x2="62" y2="68" class="stroke"/>
+        <line x1="62" y1="68" x2="66" y2="84" class="stroke"/>
+        <line x1="92" y1="42" x2="98" y2="68" class="stroke"/>
+        <line x1="98" y1="68" x2="94" y2="84" class="stroke"/>
+        <line x1="72" y1="62" x2="88" y2="62" class="stroke"/>
+        <line x1="72" y1="62" x2="70" y2="92" class="stroke"/>
+        <line x1="88" y1="62" x2="90" y2="92" class="stroke"/>
+        <circle cx="80" cy="32" r="1.6" class="dot"/>
+        <circle cx="68" cy="42" r="1.6" class="dot"/>
+        <circle cx="92" cy="42" r="1.6" class="dot"/>
+        <circle cx="62" cy="68" r="1.6" class="dot"/>
+        <circle cx="98" cy="68" r="1.6" class="dot"/>
+        <circle cx="72" cy="62" r="1.6" class="dot"/>
+        <circle cx="88" cy="62" r="1.6" class="dot"/>
+        <circle cx="66" cy="84" r="1.6" class="dot"/>
+        <circle cx="94" cy="84" r="1.6" class="dot"/>
+        <circle cx="70" cy="92" r="1.6" class="dot"/>
+        <circle cx="90" cy="92" r="1.6" class="dot"/>
+      </svg>
+    </div>
+    <div class="project-content">
+      <h3>XR-Poser: Accurate Egocentric Human Motion Estimation for AR/VR</h3>
+      <div class="project-venue">CVPR 2026 &middot; Meta</div>
+      <p>
+        A transformer-based model for temporally consistent body pose estimation from egocentric headset cameras, paired with an auto-labeling system that scales training to tens of millions of unlabeled frames. Supports both keypoint and parametric body representations.
+      </p>
+      <div class="project-meta">
+        <a href="https://arxiv.org/abs/2603.04090">preprint</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-thumb">
+      <svg viewBox="0 0 160 110" xmlns="http://www.w3.org/2000/svg">
+        <line x1="30" y1="80" x2="55" y2="55" class="stroke-thin"/>
+        <line x1="55" y1="55" x2="80" y2="35" class="stroke-thin"/>
+        <line x1="80" y1="35" x2="105" y2="50" class="stroke-thin"/>
+        <line x1="105" y1="50" x2="125" y2="75" class="stroke-thin"/>
+        <line x1="30" y1="80" x2="80" y2="35" class="stroke-thin" stroke-dasharray="2,2"/>
+        <line x1="55" y1="55" x2="105" y2="50" class="stroke-thin" stroke-dasharray="2,2"/>
+        <line x1="80" y1="35" x2="125" y2="75" class="stroke-thin" stroke-dasharray="2,2"/>
+        <line x1="30" y1="80" x2="125" y2="75" class="stroke-thin" stroke-dasharray="2,2"/>
+        <line x1="55" y1="55" x2="125" y2="75" class="stroke-thin" stroke-dasharray="2,2"/>
+        <circle cx="30" cy="80" r="3.5" class="dot"/>
+        <circle cx="55" cy="55" r="3.5" class="dot"/>
+        <circle cx="80" cy="35" r="3.5" class="dot"/>
+        <circle cx="105" cy="50" r="3.5" class="dot"/>
+        <circle cx="125" cy="75" r="3.5" class="dot"/>
+        <circle cx="125" cy="75" r="6" class="stroke-thin"/>
+      </svg>
+    </div>
+    <div class="project-content">
+      <h3>Generative Graphical Inverse Kinematics</h3>
+      <div class="project-venue">IEEE T-RO 2024</div>
+      <p>
+        The first learned generative IK solver that generalizes across robot embodiments. Uses a distance-graph robot representation with a graph neural network to produce diverse solutions in parallel for unseen manipulators.
+      </p>
+      <div class="project-meta">
+        <a href="https://arxiv.org/abs/2209.08812">preprint</a>
+        <a href="https://github.com/utiasSTARS/graphIK">code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-thumb">
+      <svg viewBox="0 0 160 110" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 20 30 Q 80 20 140 30" class="stroke-thin"/>
+        <path d="M 20 45 Q 80 35 140 45" class="stroke-thin"/>
+        <path d="M 20 60 Q 80 50 140 60" class="stroke-thin"/>
+        <path d="M 20 75 Q 80 65 140 75" class="stroke-thin"/>
+        <path d="M 20 90 Q 80 80 140 90" class="stroke-thin"/>
+        <path d="M 35 22 Q 30 55 35 92" class="stroke-thin"/>
+        <path d="M 65 18 Q 60 55 65 86" class="stroke-thin"/>
+        <path d="M 95 18 Q 100 55 95 86" class="stroke-thin"/>
+        <path d="M 125 22 Q 130 55 125 92" class="stroke-thin"/>
+        <path d="M 30 28 Q 60 50 90 55 T 130 78" class="accent-warm" stroke-width="1.6"/>
+        <circle cx="30" cy="28" r="2.5" class="dot-open"/>
+        <circle cx="65" cy="48" r="1.5" class="dot"/>
+        <circle cx="95" cy="58" r="1.5" class="dot"/>
+        <circle cx="130" cy="78" r="3" class="dot"/>
+      </svg>
+    </div>
+    <div class="project-content">
+      <h3>Riemannian Optimization for Distance-Geometric Inverse Kinematics</h3>
+      <div class="project-venue">IEEE T-RO 2021</div>
+      <p>
+        A reformulation of inverse kinematics as low-rank Euclidean distance matrix completion, solved on the Riemannian manifold of fixed-rank Gram matrices. Outperforms classical numerical solvers, particularly for multi-end-effector problems.
+      </p>
+      <div class="project-meta">
+        <a href="https://arxiv.org/abs/2108.13720">preprint</a>
+        <a href="https://youtu.be/uFe2oI6d-rg">video</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-thumb">
+      <svg viewBox="0 0 160 110" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="85" width="20" height="10" class="stroke" rx="1"/>
+        <line x1="22" y1="95" x2="38" y2="95" class="stroke"/>
+        <line x1="30" y1="85" x2="30" y2="65" class="stroke" stroke-width="2"/>
+        <circle cx="30" cy="65" r="3" class="dot-open"/>
+        <line x1="30" y1="65" x2="65" y2="45" class="stroke" stroke-width="2"/>
+        <circle cx="65" cy="45" r="3" class="dot-open"/>
+        <line x1="65" y1="45" x2="95" y2="35" class="stroke" stroke-width="2"/>
+        <circle cx="95" cy="35" r="3" class="dot-open"/>
+        <line x1="95" y1="35" x2="120" y2="50" class="stroke" stroke-width="2"/>
+        <circle cx="120" cy="50" r="4" class="dot"/>
+        <line x1="116" y1="46" x2="124" y2="42" class="stroke"/>
+        <line x1="124" y1="54" x2="116" y2="58" class="stroke"/>
+        <line x1="30" y1="65" x2="95" y2="35" class="accent-warm" stroke-dasharray="2,2"/>
+        <line x1="65" y1="45" x2="120" y2="50" class="accent-warm" stroke-dasharray="2,2"/>
+        <line x1="30" y1="65" x2="120" y2="50" class="accent-warm" stroke-dasharray="2,2"/>
+      </svg>
+    </div>
+    <div class="project-content">
+      <h3>GraphIK</h3>
+      <div class="project-venue">Open-source library &middot; Python</div>
+      <p>
+        Distance-graph representations of robotic manipulators for inverse kinematics, motion planning, and learning with graph neural networks. The reference implementation behind several of the IK papers above.
+      </p>
+      <div class="project-meta">
+        <a href="https://github.com/utiasSTARS/graphIK">github</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="news">
+  <h2 class="section-title">News</h2>
+
+  <div class="news-item">
+    <div class="news-date">Feb 2026</div>
+    <div class="news-body">&ldquo;XR-Poser&rdquo; accepted at CVPR 2026. <a href="https://arxiv.org/abs/2603.04090">preprint</a></div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Dec 2024</div>
+    <div class="news-body">&ldquo;Generative Graphical Inverse Kinematics&rdquo; accepted at <em>IEEE Transactions on Robotics</em>. <a href="https://arxiv.org/abs/2209.08812">preprint</a> <a href="https://github.com/utiasSTARS/graphIK">code</a></div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jun 2024</div>
+    <div class="news-body">Joined Meta as an AI Research Scientist, working on body tracking and generative motion models for AR/VR.</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jul 2023</div>
+    <div class="news-body">Presented &ldquo;Euclidean Equivariant Models for Generative Graphical Inverse Kinematics&rdquo; at the RSS 2023 workshop on <em>Symmetries in Robot Learning</em>. <a href="https://arxiv.org/abs/2307.01902">paper</a></div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">May 2023</div>
+    <div class="news-body">Selected for the University of Toronto&rsquo;s <em>Grads to Watch</em> list.</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Feb 2023</div>
+    <div class="news-body">Joined Samsung Research America in Montreal, working on visual-language models for composed image search.</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jan 2023</div>
+    <div class="news-body">Defended my PhD thesis at the University of Toronto.</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Apr 2022</div>
+    <div class="news-body">Started a research internship at Meta Reality Labs, working on inside-out body tracking.</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Feb 2022</div>
+    <div class="news-body">&ldquo;Convex Iteration for Distance-Geometric Inverse Kinematics&rdquo; published in <em>IEEE Robotics and Automation Letters</em>. <a href="https://arxiv.org/abs/2109.03374">preprint</a></div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Oct 2021</div>
+    <div class="news-body">&ldquo;Riemannian Optimization for Distance-Geometric Inverse Kinematics&rdquo; accepted at <em>IEEE Transactions on Robotics</em>. <a href="https://arxiv.org/abs/2108.13720">preprint</a></div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jun 2021</div>
+    <div class="news-body">Invited speaker at the RSS 2021 workshop on <em>Geometry and Topology in Robotics</em>. <a href="https://youtu.be/uFe2oI6d-rg">talk video</a></div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Oct 2020</div>
+    <div class="news-body">&ldquo;Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion&rdquo; won the best workshop contribution award at the IROS 2020 workshop on <em>Bringing Geometric Methods to Robot Learning</em>. <a href="https://arxiv.org/abs/2011.04850">paper</a></div>
+  </div>
+</section>

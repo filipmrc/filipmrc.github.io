@@ -1,0 +1,238 @@
+---
+layout: pub
+title: Publications
+permalink: /publications/
+description: Selected publications by Filip Marić.
+---
+<p class="pubs-intro">
+  Selected publications and additional materials (code, media, PDFs). For a complete list, see my <a href="https://scholar.google.com/citations?hl=en&amp;user=o_cwgrkAAAAJ">Google Scholar profile</a>.
+</p>
+
+<article class="pub">
+  <h4 class="pub-title">XR-Poser: Accurate Egocentric Human Motion Estimation for AR/VR</h4>
+  <p class="pub-authors">Z. Li, S. K. Dwivedi, <strong>Filip Marić</strong>, C. Chacón, N. Bertsch, F. Arcadu, T. Hodan, M. Ramamonjisoa, P. Wonka, A. Zhao, R. Kips, C. Keskin, A. Tkach, C. Yang</p>
+  <p class="pub-venue">2026 &middot; Conference on Computer Vision and Pattern Recognition (CVPR&rsquo;26)</p>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/2603.04090">preprint</a>
+  </p>
+</article>
+
+<article class="pub">
+  <h4 class="pub-title">Generative Graphical Inverse Kinematics</h4>
+  <p class="pub-authors">Oliver Limoyo*, <strong>Filip Marić</strong>*, Matthew Giamou, Petra Alexson, Ivan Petrović, Jonathan Kelly</p>
+  <p class="pub-venue">2024 &middot; IEEE Transactions on Robotics</p>
+  <details class="pub-detail">
+    <summary>Abstract</summary>
+    <p>Quickly and reliably finding accurate inverse kinematics (IK) solutions remains a challenging problem for robotic manipulation. Existing numerical solvers are broadly applicable, but typically only produce a single solution and rely on local search techniques to minimize highly nonconvex objective functions. More recent learning-based approaches that approximate the entire feasible set of solutions have shown promise as a means to generate multiple fast and accurate IK results in parallel. However, existing learning-based techniques have a significant drawback: each robot of interest requires a specialized model that must be trained from scratch. To address this key shortcoming, we investigate a novel distance-geometric robot representation coupled with a graph structure that allows us to leverage the flexibility of graph neural networks (GNNs). We use this approach to train the first learned generative graphical inverse kinematics (GGIK) solver that is able to produce a large number of diverse solutions in parallel and to also generalize: a single learned model can be used to produce IK solutions for a variety of different robots. When compared to several other learned IK methods, GGIK provides more accurate solutions. GGIK is also able to generalize reasonably well to robot manipulators unseen during training. Finally, we show that GGIK can be used to complement local IK solvers by providing reliable initializations to seed the local optimization process.</p>
+  </details>
+  <details class="pub-detail">
+    <summary>BibTeX</summary>
+<pre>@article{2024_Limoyo_Generative,
+  author = {Oliver Limoyo and Filip Maric and Matthew Giamou and Petra Alexson and Ivan Petrovic and Jonathan Kelly},
+  journal = {IEEE Transactions on Robotics},
+  title = {Generative Graphical Inverse Kinematics},
+  url = {http://arxiv.org/abs/2209.08812},
+  year = {2024}
+}</pre>
+  </details>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/2209.08812">preprint</a>
+    <a href="https://github.com/utiasSTARS/graphIK">code</a>
+  </p>
+</article>
+
+<article class="pub">
+  <h4 class="pub-title">Convex Iteration for Distance-Geometric Inverse Kinematics</h4>
+  <p class="pub-authors">Matthew Giamou*, <strong>Filip Marić</strong>*, David M. Rosen, Valentin Peretroukhin, Nicholas Roy, Ivan Petrović, Jonathan Kelly</p>
+  <p class="pub-venue">2022 &middot; IEEE Robotics and Automation Letters</p>
+  <details class="pub-detail">
+    <summary>Abstract</summary>
+    <p>Inverse kinematics (IK) is the problem of finding robot joint configurations that satisfy constraints on the position or pose of one or more end-effectors. For robots with redundant degrees of freedom, there is often an infinite, nonconvex set of solutions. The IK problem is further complicated when collision avoidance constraints are imposed by obstacles in the workspace. In general, closed-form expressions yielding feasible configurations do not exist, motivating the use of numerical solution methods. However, these approaches rely on local optimization of nonconvex problems, often requiring an accurate initialization or numerous re-initializations to converge to a valid solution. In this work, we first formulate inverse kinematics with complex workspace constraints as a convex feasibility problem whose low-rank feasible points provide exact IK solutions. We then present CIDGIK (Convex Iteration for Distance-Geometric Inverse Kinematics), an algorithm that solves this feasibility problem with a sequence of semidefinite programs whose objectives are designed to encourage low-rank minimizers. Our problem formulation elegantly unifies the configuration space and workspace constraints of a robot: intrinsic robot geometry and obstacle avoidance are both expressed as simple linear matrix equations and inequalities. Our experimental results for a variety of popular manipulator models demonstrate faster and more accurate convergence than a conventional nonlinear optimization-based approach, especially in environments with many obstacles.</p>
+  </details>
+  <details class="pub-detail">
+    <summary>BibTeX</summary>
+<pre>@article{2022_Giamou_Convex,
+  author = {Matthew Giamou and Filip Maric and David M. Rosen and Valentin Peretroukhin and Nicholas Roy and Ivan Petrovic and Jonathan Kelly},
+  code = {https://github.com/utiasSTARS/graphIK},
+  doi = {10.1109/LRA.2022.3141763},
+  journal = {IEEE Robotics and Automation Letters},
+  month = {April},
+  number = {2},
+  pages = {1952--1959},
+  title = {Convex Iteration for Distance-Geometric Inverse Kinematics},
+  url = {https://arxiv.org/abs/2109.03374},
+  video1 = {https://www.youtube.com/watch?v=kja7H8zQ0H8},
+  volume = {7},
+  year = {2022}
+}</pre>
+  </details>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/2109.03374">preprint</a>
+    <a href="https://www.youtube.com/watch?v=kja7H8zQ0H8">video</a>
+  </p>
+</article>
+
+<article class="pub">
+  <h4 class="pub-title">Riemannian Optimization for Distance-Geometric Inverse Kinematics</h4>
+  <p class="pub-authors"><strong>F. Marić</strong>*, M. Giamou*, A. Hall, S. Khoubyarian, I. Petrović, J. Kelly</p>
+  <p class="pub-venue">2021 &middot; IEEE Transactions on Robotics</p>
+  <details class="pub-detail">
+    <summary>Abstract</summary>
+    <p>Solving the inverse kinematics problem is a fundamental challenge in motion planning, control, and calibration for articulated robots. Kinematic models for these robots are typically parameterized by joint angles, generating a complicated trigonometric mapping between a robot&rsquo;s configuration and end-effector pose. Alternatively, the kinematic model and task constraints can be represented using invariant distances between points attached to the robot. In this paper, we prove the equivalence of distance-based inverse kinematics formulations and the distance geometry problem for a large class of robots comprised of revolute joints. Unlike previous approaches, we use the connection between distance geometry and low-rank matrix completion to find inverse kinematics solutions by completing a partial Euclidean distance matrix using local optimization. Further, we parameterize the space of Euclidean distance matrices with the Riemannian manifold of fixed-rank Gram matrices, allowing us to leverage a variety of mature Riemannian optimization methods. Finally, we show that bound smoothing can be used to generate informed initializations without significant computational overhead, improving convergence. We demonstrate that our novel inverse kinematics solver achieves higher success rates compared to traditional approaches, and significantly outperforms them in many cases where multiple end-effectors are present.</p>
+  </details>
+  <details class="pub-detail">
+    <summary>BibTeX</summary>
+<pre>@article{2020_Maric_Riemannian,
+  author = {Filip Marić and Matthew Giamou and Adam Hall and Soroush Khoubyarian and Ivan Petrović and Jonathan Kelly},
+  journal = {IEEE Transactions on Robotics},
+  note = {Submitted},
+  title = {Riemannian Optimization for Distance Geometric Inverse Kinematics},
+  year = {2020}
+}</pre>
+  </details>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/2108.13720">preprint</a>
+  </p>
+</article>
+
+<article class="pub">
+  <h4 class="pub-title">Geometry-Aware Singularity Avoidance for Articulated Robots Using a Riemannian Metric</h4>
+  <p class="pub-authors"><strong>F. Marić</strong>, L. Petrović, M. Guberina, J. Kelly, I. Petrović</p>
+  <p class="pub-venue">2021 &middot; Robotics and Autonomous Systems</p>
+  <details class="pub-detail">
+    <summary>Abstract</summary>
+    <p>Articulated robots such as manipulators are increasingly being used for tasks that involve interaction (with humans, for example), where a capacity to adapt to unexpected changes in operational space constraints is essential. In certain configurations, known as singularities, a manipulator loses one or more degrees of freedom (DoF) and is unable to move in certain operational space directions. The inability to move in arbitrary directions in operational space compromises adaptivity and, potentially, safety. In this paper, we introduce a geometry-aware singularity index that uses a Riemannian metric to provide a measure of proximity to singular configurations and that avoids some failure modes of other common indices. We show that this index can be elegantly differentiated using a connection with Frećhet derivatives, making it compatible with popular local optimization approaches used for operational space control. Our experimental results show that a singularity avoidance method based on our index outperforms a common manipulability maximizing method in reaching and path following tasks optimized for singularity-robust and safe motion.</p>
+  </details>
+  <details class="pub-detail">
+    <summary>BibTeX</summary>
+<pre>@article{MARIC2021103865,
+  title = {A Riemannian metric for geometry-aware singularity avoidance by articulated robots},
+  journal = {Robotics and Autonomous Systems},
+  volume = {145},
+  pages = {103865},
+  year = {2021},
+  issn = {0921-8890},
+  doi = {https://doi.org/10.1016/j.robot.2021.103865},
+  url = {https://www.sciencedirect.com/science/article/pii/S0921889021001500},
+  author = {Filip Marić and Luka Petrović and Marko Guberina and Jonathan Kelly and Ivan Petrović},
+  keywords = {Manipulation, Manipulability ellipsoid, Kinematics, Differential geometry}
+}</pre>
+  </details>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/2103.05362">preprint</a>
+  </p>
+</article>
+
+<article class="pub">
+  <h4 class="pub-title">Heteroscedastic Uncertainty for Robust Generative Latent Dynamics</h4>
+  <p class="pub-authors">Oliver Limoyo, Bryan Chan, <strong>Filip Marić</strong>, Brandon Wagstaff, A. Rupam Mahmood, Jonathan Kelly</p>
+  <p class="pub-venue">2020 &middot; IEEE Robotics and Automation Letters &middot; Vol. 5, No. 4, pp. 6654&ndash;6661</p>
+  <details class="pub-detail">
+    <summary>BibTeX</summary>
+<pre>@article{2020_Limoyo_Heteroscedastic,
+  author = {Oliver Limoyo and Bryan Chan and Filip Marić and Brandon Wagstaff and A. Rupam Mahmood and Jonathan Kelly},
+  journal = {IEEE Robotics and Automation Letters},
+  number = {4},
+  pages = {6654--6661},
+  title = {Heteroscedastic Uncertainty for Robust Generative Latent Dynamics},
+  url = {https://arxiv.org/abs/2008.08157},
+  volume = {5},
+  year = {2020}
+}</pre>
+  </details>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/2008.08157">preprint</a>
+  </p>
+</article>
+
+<article class="pub">
+  <h4 class="pub-title">Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion</h4>
+  <p class="pub-authors"><strong>F. Marić</strong>, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly</p>
+  <p class="pub-venue">2020 &middot; IEEE/RSJ IROS&rsquo;20 Workshop on Geometric Methods in Robot Learning, Optimization and Control &middot; Las Vegas, NV<span class="badge">Best Paper</span></p>
+  <details class="pub-detail">
+    <summary>Abstract</summary>
+    <p>The majority of inverse kinematics (IK) algorithms search for solutions in a configuration space defined by joint angles. However, the kinematics of many robots can also be described in terms of distances between rigidly-attached points, which collectively form a Euclidean distance matrix. This alternative geometric description of the kinematics reveals an elegant equivalence between IK and the problem of low-rank matrix completion. We use this connection to implement a novel Riemannian optimization-based solution to IK for various articulated robots with symmetric joint angle constraints.</p>
+  </details>
+  <details class="pub-detail">
+    <summary>BibTeX</summary>
+<pre>@inproceedings{2020_Maric_Inverse_B,
+  address = {Las Vegas, Nevada, USA},
+  author = {Filip Marić and Matthew Giamou and Ivan Petrović and Jonathan Kelly},
+  booktitle = {Proceedings of the {IEEE/RSJ} International Conference on Intelligent Robots and Systems {(IROS'20)} Workshop on Bringing Geometric Methods to Robot Learning, Optimization and Control},
+  date = {2020-10-29},
+  month = {Oct. 29},
+  note = {Bosch Center for Artificial Intelligence Best Workshop Contribution Award},
+  title = {Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion},
+  year = {2020}
+}</pre>
+  </details>
+  <p class="pub-links">
+    <a href="https://youtu.be/wO0_w2Gw5jk">video</a>
+  </p>
+</article>
+
+<article class="pub">
+  <h4 class="pub-title">Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization</h4>
+  <p class="pub-authors"><strong>F. Marić</strong>, M. Giamou, S. Khoubyarian, I. Petrović, J. Kelly</p>
+  <p class="pub-venue">2020 &middot; IEEE International Conference on Robotics and Automation (ICRA&rsquo;20) &middot; Paris, France</p>
+  <details class="pub-detail">
+    <summary>Abstract</summary>
+    <p>Inverse kinematics is a fundamental challenge for articulated robots: fast and accurate algorithms are needed for translating task-related workspace constraints and goals into feasible joint configurations. In general, inverse kinematics for serial kinematic chains is a difficult nonlinear problem, for which closed form solutions cannot easily be obtained. Therefore, computationally efficient numerical methods that can be adapted to a general class of manipulators are of great importance. In this paper, we use convex optimization techniques to solve the inverse kinematics problem with joint limit constraints for highly redundant serial kinematic chains with spherical joints in two and three dimensions. This is accomplished through a novel formulation of inverse kinematics as a nearest point problem, and with a fast sum of squares solver that exploits the sparsity of kinematic constraints for serial manipulators. Our method has the advantages of post-hoc certification of global optimality and a runtime that scales polynomially with the number of degrees of freedom. Additionally, we prove that our convex relaxation leads to a globally optimal solution when certain conditions are met, and demonstrate empirically that these conditions are common and represent many practical instances. Finally, we provide an open source implementation of our algorithm.</p>
+  </details>
+  <details class="pub-detail">
+    <summary>BibTeX</summary>
+<pre>@inproceedings{2020_Maric_Inverse,
+  address = {Paris, France},
+  author = {Filip Marić and Matthew Giamou and Soroush Khoubyarian and Ivan Petrović and Jonathan Kelly},
+  booktitle = {Proceedings of the {IEEE} International Conference on Robotics and Automation {(ICRA'20})},
+  date = {2020-05-31/2020-06-04},
+  month = {May 31--Jun. 4},
+  title = {Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization},
+  url = {http://arxiv.org/abs/1909.09318},
+  video1 = {https://www.youtube.com/watch?v=AdPze8cTUuE},
+  year = {2020}
+}</pre>
+  </details>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/1909.09318">preprint</a>
+    <a href="https://github.com/utiasSTARS/sos-ik">code</a>
+    <a href="https://www.youtube.com/watch?v=AdPze8cTUuE">video</a>
+  </p>
+</article>
+
+<article class="pub">
+  <h4 class="pub-title">Fast Manipulability Maximization Using Continuous-Time Trajectory Optimization</h4>
+  <p class="pub-authors"><strong>F. Marić</strong>, O. Limoyo, L. Petrović, T. Ablett, I. Petrović, J. Kelly</p>
+  <p class="pub-venue">2019 &middot; IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS&rsquo;19) &middot; Macau, China</p>
+  <details class="pub-detail">
+    <summary>Abstract</summary>
+    <p>A significant challenge in manipulation motion planning is to ensure agility in the face of unpredictable changes during task execution. This requires the identification and possible modification of suitable joint-space trajectories, since the joint velocities required to achieve a specific end-effector motion vary with manipulator configuration. For a given manipulator configuration, the joint space-to-task space velocity mapping is characterized by a quantity known as the manipulability index. In contrast to previous control-based approaches, we examine the maximization of manipulability during planning as a way of achieving adaptable and safe joint space-to-task space motion mappings in various scenarios. By representing the manipulator trajectory as a continuous-time Gaussian process (GP), we are able to leverage recent advances in trajectory optimization to maximize the manipulability index during trajectory generation. Moreover, the sparsity of our chosen representation reduces the typically large computational cost associated with maximizing manipulability when additional constraints exist. Results from simulation studies and experiments with a real manipulator demonstrate increases in manipulability, while maintaining smooth trajectories with more dexterous (and therefore more agile) arm configurations.</p>
+  </details>
+  <details class="pub-detail">
+    <summary>BibTeX</summary>
+<pre>@inproceedings{2019_Maric_Fast,
+  address = {Macau, China},
+  author = {Filip Marić and Oliver Limoyo and Luka Petrović and Trevor Ablett and Ivan Petrović and Jonathan Kelly},
+  booktitle = {Proceedings of the {IEEE/RSJ} International Conference on Intelligent Robots and Systems {(IROS'19)}},
+  pages = {8258--8264},
+  title = {Fast Manipulability Maximization Using Continuous-Time Trajectory Optimization},
+  url = {https://arxiv.org/abs/1908.02963},
+  year = {2019}
+}</pre>
+  </details>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/1908.02963">preprint</a>
+    <a href="https://youtu.be/tB34VfDrF84">video</a>
+  </p>
+</article>
+
+<h3 class="pubs-year">Other Publications</h3>
+
+<div class="pubs-other">
+  <ul>
+    <li>H. J. Zhang, M. Giamou, <strong>F. Marić</strong>, J. Kelly, J. Burgner-Kahrs. &ldquo;CIDGIKc: Distance-Geometric Inverse Kinematics for Continuum Robots.&rdquo; <em>IEEE Robotics and Automation Letters</em>, 2023. <a href="https://arxiv.org/abs/2306.13617">preprint</a></li>
+    <li>I. Bilić, <strong>F. Marić</strong>, I. Marković, I. Petrović. &ldquo;A Distance-Geometric Method for Recovering Robot Joint Angles From an RGB Image.&rdquo; <em>arXiv preprint arXiv:2301.02051</em>, 2023. <a href="https://arxiv.org/abs/2301.02051">preprint</a></li>
+    <li>O. Lamarre, O. Limoyo, <strong>F. Marić</strong>, J. Kelly. &ldquo;The Canadian Planetary Emulation Terrain Energy-Aware Rover Navigation Dataset.&rdquo; <em>The International Journal of Robotics Research</em>, vol. 39, no. 6, pp. 641&ndash;650, 2020.</li>
+    <li>L. Petrović, <strong>F. Marić</strong>, I. Marković, I. Petrović. &ldquo;Gaussian Processes Incremental Inference for Mobile Robots Dynamic Planning.&rdquo; <em>IFAC World Congress</em>, vol. 53, no. 2, pp. 9584&ndash;9589, 2020.</li>
+  </ul>
+</div>
